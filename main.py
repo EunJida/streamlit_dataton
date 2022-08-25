@@ -18,7 +18,6 @@ st.set_page_config(
 )
 
 # title
-# st.title('COVID-19 Coughing Detector')
 title('COVID-19 Coughing Detector')
 
 # 코로나 증상
