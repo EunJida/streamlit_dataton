@@ -50,7 +50,9 @@ callout(['현재 집에 진단키트가 없으신가요?',
 
 line_break()
 line_break()
+line_break()
 
+# step
 col1, col2, col3 = st.columns(3)
 
 with col1:
