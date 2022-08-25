@@ -25,7 +25,7 @@ section('코로나19 주요 증상 안내')
 
 line_break()
 
-image = Image.open('images/코로나증상.png')
+image = Image.open('images/코로나증상1.png')
 st.image(image,)
 
 line_break()
