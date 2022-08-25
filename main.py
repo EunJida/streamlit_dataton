@@ -17,19 +17,21 @@ st.set_page_config(
     }
 )
 
-# st.set_page_config(layout="wide")
-
 # title
 # st.title('COVID-19 Coughing Detector')
 title('COVID-19 Coughing Detector')
 
+# 코로나 증상
+title('코로나19 주요 증상 안내')
+agree = st.checkbox('I agree')
 
+if agree:
+     st.write('Great!')
 
-
-
-
-
-
+        
+        
+        
+        
 def line_break():
     return st.markdown("<br/>", unsafe_allow_html=True)
 
