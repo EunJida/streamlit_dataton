@@ -50,3 +50,4 @@ callout(['현재 집에 진단키트가 없으신가요?',
 
 line_break()
 line_break()
+
