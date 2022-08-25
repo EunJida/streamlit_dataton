@@ -53,6 +53,8 @@ line_break()
 line_break()
 
 # step
+section('COVID-19 검출 진단 도구 사용 방법')
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
