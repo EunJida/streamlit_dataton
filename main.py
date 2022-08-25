@@ -75,4 +75,4 @@ with col3:
         #### Step3
         """
     )
-    st.image("images/step3.jpg")
+    st.image("images/step2.jpg")
