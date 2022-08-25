@@ -22,7 +22,7 @@ st.set_page_config(
 title('COVID-19 Coughing Detector')
 
 # 코로나 증상
-title('코로나19 주요 증상 안내')
+section('코로나19 주요 증상 안내')
 agree = st.checkbox('I agree')
 
 if agree:
