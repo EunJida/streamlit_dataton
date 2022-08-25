@@ -23,7 +23,7 @@ title('COVID-19 Coughing Detector')
 # 코로나 증상
 section('코로나19 주요 증상 안내')
 
-image = Image.open('코로나주요증상.jpg')
+image = Image.open('images/코로나주요증상.jpg')
 st.image(image,)
 
 agree = st.checkbox('I agree')
