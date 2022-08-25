@@ -1,8 +1,10 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
 from html_module import line_break, section, callout, title
+from PIL import Image
 
 # config
-st.set_page_config(layout="wide")
 st.set_page_config(
     page_title="COVID-19 Coughing Detector",
     page_icon="🤒",
@@ -13,6 +15,8 @@ st.set_page_config(
         'About': "# This is a header. This is an *extremely* cool app!"
     }
 )
+
+st.set_page_config(layout="wide")
 
 # title
 # st.title('COVID-19 Coughing Detector')
