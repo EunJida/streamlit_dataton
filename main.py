@@ -28,13 +28,21 @@ line_break()
 image = Image.open('images/코로나증상.png')
 st.image(image,)
 
+line_break()
+
 st.markdown('여러분이 앓고 있는 증상은 무엇인가요?')
 agree1 = st.checkbox('발열')
 agree2 = st.checkbox('기침')
 agree3 = st.checkbox('몸살')
 agree4 = st.checkbox('인후염')
 
-# if agree:
-#      st.write('Great!')
+if agree1:
+     st.markdown('발열이 **있군요**')
+if agree1:
+     st.write('Great!')
+if agree1:
+     st.write('Great!')
+if agree1:
+     st.write('Great!')
 
 line_break()
