@@ -36,13 +36,7 @@ agree2 = st.checkbox('기침')
 agree3 = st.checkbox('몸살')
 agree4 = st.checkbox('인후염')
 
-if agree1:
-     st.markdown('발열이 **있군요**')
-if agree1:
-     st.write('Great!')
-if agree1:
-     st.write('Great!')
-if agree1:
-     st.write('Great!')
+if agree1 & agree2:
+     st.markdown('발열과 기침이 있군요!')
 
 line_break()
