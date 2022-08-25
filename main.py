@@ -59,7 +59,7 @@ with col1:
     st.markdown(
         """
         #### Step1
-        기침 소리로부터 COVID-19를 검출하는 새로운 진단 도구를 사용해보아요.
+        기침 소리로부터 COVID-19를 검출하는 진단 도구를 사용해보아요.
         """
     )
     st.image("images/step1.jpg")
