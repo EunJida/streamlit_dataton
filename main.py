@@ -37,6 +37,7 @@ agree3 = st.checkbox('몸살')
 agree4 = st.checkbox('인후염')
 
 if agree1 or agree2 or agree3 or agree4:
-     st.markdown('코로나19 증상이 있군요! 검사가 필요할 것 같아요.')
+     st.markdown('코로나19 증상이 있군요! 검사가 필요할 것 같아요.
+                 가가아')
 
 line_break()
