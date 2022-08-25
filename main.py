@@ -36,7 +36,7 @@ agree2 = st.checkbox('기침')
 agree3 = st.checkbox('몸살')
 agree4 = st.checkbox('인후염')
 
-if agree1 & agree2:
-     st.markdown('발열과 기침이 있군요!')
+if agree1 or agree2 or agree3 or agree4:
+     st.markdown('코로나19 증상이 있군요! 검사가 필요할 것 같아요.')
 
 line_break()
