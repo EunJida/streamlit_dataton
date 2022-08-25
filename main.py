@@ -59,6 +59,7 @@ with col1:
     st.markdown(
         """
         #### Step1
+        기침으로
         """
     )
     st.image("images/step1.jpg")
