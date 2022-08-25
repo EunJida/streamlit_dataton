@@ -81,7 +81,7 @@ with col3:
     st.markdown(
         """
         #### Step3
-        COVID-19 페이지에서 진단 결과를 확인하세요!
+        COVID-19 Detection 페이지에서 진단 결과를 확인하세요!
         """
     )
     st.image("images/step2.jpg")
