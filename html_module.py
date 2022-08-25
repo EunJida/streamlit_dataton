@@ -15,7 +15,7 @@ def title(text):
 
 
 # section 함수
-def section(text, width=500):
+def section(text, width=300):
     html = f"""
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <br/>
