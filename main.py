@@ -23,6 +23,8 @@ title('COVID-19 Coughing Detector')
 # 코로나 증상
 section('코로나19 주요 증상 안내')
 
+line_break()
+
 image = Image.open('images/코로나증상.png')
 st.image(image,)
 
