@@ -54,6 +54,7 @@ line_break()
 
 # step
 section('진단 도구 사용 방법')
+line_break()
 
 col1, col2, col3 = st.columns(3)
 
