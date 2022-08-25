@@ -1,8 +1,28 @@
 import streamlit as st
+from html_module import line_break, section, callout, title
 
+# config
 st.set_page_config(layout="wide")
+st.set_page_config(
+    page_title="COVID-19 Coughing Detector",
+    page_icon="🤒",
+    initial_sidebar_state="expanded", 
+    menu_items={
+        'Get Help': 'https://www.extremelycoolapp.com/help',
+        'Report a bug': "https://www.extremelycoolapp.com/bug",
+        'About': "# This is a header. This is an *extremely* cool app!"
+    }
+)
 
-st.title('COVID-19 Coughing Detector')
+# title
+# st.title('COVID-19 Coughing Detector')
+title('COVID-19 Coughing Detector')
+
+
+
+
+
+
 
 
 def line_break():
