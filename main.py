@@ -59,7 +59,7 @@ with col1:
     st.markdown(
         """
         #### Step1
-        기침으로
+        기침 소리로부터 COVID-19를 검출하는 새로운 진단 도구를 사용해보아요.
         """
     )
     st.image("images/step1.jpg")
@@ -68,6 +68,8 @@ with col2:
     st.markdown(
         """
         #### Step2
+        기침하는 소리를 녹음합니다.
+        녹음 파일은 확장자명은 **WAV**로 저장해주세요!
         """
     )
     st.image("images/step2.jpg")
