@@ -8,7 +8,8 @@ from PIL import Image
 st.set_page_config(
     page_title="COVID-19 Coughing Detector",
     page_icon="🤒",
-    initial_sidebar_state="expanded", 
+    initial_sidebar_state="expanded",
+    layout="wide",
     menu_items={
         'Get Help': 'https://www.extremelycoolapp.com/help',
         'Report a bug': "https://www.extremelycoolapp.com/bug",
@@ -16,7 +17,7 @@ st.set_page_config(
     }
 )
 
-st.set_page_config(layout="wide")
+# st.set_page_config(layout="wide")
 
 # title
 # st.title('COVID-19 Coughing Detector')
